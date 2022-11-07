@@ -1,0 +1,158 @@
+{
+  "DEV": {
+    "iterations": "Iterations",
+    "clipboard": {
+      "copy": "Copy to Clipboard",
+      "success": "Copied to Clipboard",
+      "failed": "Could not copy to Clipboard"
+    },
+    "configMenu": {
+      "AutoOpen": "Auto Open Documents",
+      "FormTitle": "Debug Flag Config",
+      "ConfigDebug": "CONFIG.debug Overrides",
+      "PackageSpecific": "Package Specific Debugging",
+      "PerformanceTesting": "Performance",
+      "CompatibilityWarnings": "Compatibility Warnings",
+      "LogLevel": "Select Log Level",
+      "DebugMode": "Enable Debug Mode",
+      "Hint": "Packages can register a debug mode setting which will appear below. Checking it or setting a log level will enable more detailed output in the console.",
+      "None": "None",
+      "autoOpen": {
+        "hint": "Register Documents that you want to automatically open Sheets for on World load here."
+      },
+      "performance": {
+        "run": "Run",
+        "hint": "This is a set of experimental tests for gauging how well your world/server performs. It can be useful to compare against different configurations on the same hardware (e.g. with and without a module on, etc).",
+        "actorCRUD": {
+          "label": "Actor CRUD Test",
+          "hint": "Runs Actor.create, update, and delete repeatedly, outputs how long the total operation takes, as well as average per operation."
+        }
+      },
+      "compatibility": {
+        "mode": "Compatibility Mode",
+        "includePatterns": "Includes",
+        "excludePatterns": "Excludes",
+        "hint": "Enter a comma-separated list of regular expressions to match against the stack trace of the compatibility warning logs. Any log that matches the included patterns will be included, and any log that matches the exclude patterns will be excluded."
+      }
+    },
+    "settings": {
+      "config-menu": {
+        "Name": "Debug Flag Config",
+        "Label": "Debug Flags",
+        "Hint": "Every core debug flag and modules you have activated might register flags for their own debugging which you can toggle here."
+      },
+      "disable-template-cache": {
+        "Name": "Disable Template Cache?",
+        "Hint": "Disables the Foundry Core template cache, allowing any template changes to be picked up when `getTemplate` is rerun(Poor man's Hot-reload for handlebars files). Requires Reload"
+      },
+      "override-config-debug": {
+        "Name": "Override CONFIG.debug?",
+        "Hint": "Whether or not to use the dev-mode override settings for CONFIG.debug flags. Setting to false will cause a reload."
+      },
+      "show-chat-ids": {
+        "Name": "Show Chat Message Ids?",
+        "Hint": "Places a clickable chip on chat messages to copy the id or print the document to the console. Requires Reload"
+      },
+      "show-directory-ids": {
+        "Name": "Show Sidebar Directory Ids?",
+        "Hint": "Places a clickable chip on sidebar directory entries to copy the id or print the document to the console. Requires Reload"
+      },
+      "show-compendium-ids": {
+        "Name": "Show Compendium Document Ids?",
+        "Hint": "Places a clickable chip on compendium directory entries to copy the id."
+      },
+      "suppress-too-small": {
+        "Name": "Suppress Window Size Warning",
+        "Hint": "Suppresses the window size warning on startup."
+      },
+      "always-unpause": {
+        "Name": "Always Unpause",
+        "Hint": "The game will always unpause when starting."
+      },
+      "json-diff-system": {
+        "Name": "System JSON changes",
+        "Hint": "Notify about system.json and template.json changes."
+      },
+      "json-diff-modules": {
+        "Name": "Module JSON changes",
+        "Hint": "Notify about module.json changes on any and all active modules."
+      },
+      "inspect-system-template": {
+        "Name": "Inspect template.json",
+        "Hint": "Does basic checks on template.json for potential issues on load."
+      },
+      "app-header-button": {
+        "Name": "Show App Header Button?",
+        "Hint": "Places a Header Button on document sheets to print the document to the console. Requires Reload"
+      },
+      "dice": {
+        "Name": "Dice"
+      },
+      "documents": {
+        "Name": "Documents"
+      },
+      "fog": {
+        "Name": "Fog"
+      },
+      "hooks": {
+        "Name": "Hooks",
+        "Hint": "Turning this on will console log all hooks as they fire while you interact with the Foundry UI."
+      },
+      "sight": {
+        "Name": "Sight"
+      },
+      "sightRays": {
+        "Name": "Sight Rays"
+      },
+      "av": {
+        "Name": "AV"
+      },
+      "avclient": {
+        "Name": "AV Client"
+      },
+      "mouseInteraction": {
+        "Name": "Mouse Interactions"
+      },
+      "time": {
+        "Name": "Time"
+      },
+      "keybindings": {
+        "Name": "Keybindings",
+        "Hint": "Turning this on will console log all keybinding events as they fire while you interact with the Foundry UI."
+      },
+      "polygons": {
+        "Name": "Polygons",
+        "Hint": "Turning this on will print debugging polygons on the canvas. Relates to vision, sound, and LOS."
+      },
+      "gamepad": {
+        "Name": "Gamepad"
+      }
+    },
+    "template-json-report": {
+      "unregistered": {
+        "Label": "Unregistered",
+        "Hint": "Template document types defined but lack registered sheet."
+      },
+      "untemplated": {
+        "Label": "Untemplated",
+        "Hint": "Registered document types not found in template."
+      },
+      "unused": {
+        "Label": "Unused",
+        "Hint": "Templates left unused."
+      },
+      "undefined": {
+        "Label": "Undefined",
+        "Hint": "Templates referred to in types but not defined."
+      }
+    },
+    "LogLevels": {
+      "0": "OFF",
+      "1": "INFO",
+      "2": "ERROR",
+      "3": "DEBUG",
+      "4": "WARN",
+      "5": "ALL"
+    }
+  }
+}

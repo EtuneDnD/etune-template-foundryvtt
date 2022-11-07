@@ -1,0 +1,23 @@
+{
+  "I18N.LANGUAGE": "Catalonian",
+  "I18N.MAINTAINERS": "Montver#9776",
+  "FXMASTER.WeatherConfigTitle": "Administració d'efectes de clima",
+  "FXMASTER.FiltersConfigTitle": "Administració d'efectes de filtres",
+  "FXMASTER.SpecialsConfigTitle": "Administració d'efectes especials",
+  "CONTROLS.Effects": "Controls d'efectes",
+  "CONTROLS.Weather": "Efectes de clima",
+  "CONTROLS.Daylight": "Filtre Llum diürna",
+  "CONTROLS.SpecialFX": "Efectes especials",
+  "CONTROLS.SaveMacro": "Exportar clima com una macro",
+  "CONTROLS.ClearFX": "Esborrar efectos i filtres",
+  "FXMASTER.Density": "Densitat",
+  "FXMASTER.Tint": "To",
+  "FXMASTER.Scale": "Escala",
+  "FXMASTER.Speed": "Velocitat",
+  "FXMASTER.Direction": "Direcció",
+  "FXMASTER.SaveMacro": "Desar com macro",
+  "FXMASTER.SaveChanges": "Desar canvis",
+  "FXMASTER.ClearWeatherAndFiltersTitle": "Esborrar efectes",
+  "FXMASTER.ClearWeatherAndFiltersContent": "<p><strong>Estàs segur?</strong> S'esborraran tots els efectes.</p>",
+  "FXMASTER.Enable": "Activar efectes"
+}

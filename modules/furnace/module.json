@@ -1,0 +1,45 @@
+{
+    "name": "furnace",
+    "title": "The Furnace",
+    "description": "No Foundry is complete without it's Furnace!",
+    "author": "KaKaRoTo",
+    "authors": [],
+    "url": "https://github.com/League-of-Foundry-Developers/fvtt-module-furnace",
+    "flags": {},
+    "version": "2.6.1",
+    "minimumCoreVersion": "0.8.4",
+    "compatibleCoreVersion": "0.8.6",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [],
+    "system": [],
+    "dependencies": [
+        {
+            "name": "advanced-macros",
+            "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json"
+        },
+        {
+            "name": "initiative-double-click",
+            "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-initiative-double-click/releases/latest/download/module.json"
+        },
+        {
+            "name": "dfreds-droppables",
+            "manifest": "https://github.com/DFreds/dfreds-droppables/releases/latest/download/module.json"
+        },
+        {
+            "name": "lessfog",
+            "manifest": "https://github.com/trdischat/lessfog/releases/latest/download/module.json"
+        },
+        {
+            "name": "split-journal",
+            "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-split-journal/releases/latest/download/module.json"
+        }
+    ],
+    "socket": true,
+    "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-furnace/releases/latest/download/module.json",
+    "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-furnace/releases/download/2.6.1/module.zip",
+    "protected": false,
+    "coreTranslation": false
+}

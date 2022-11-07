@@ -1,0 +1,33 @@
+{
+  "name": "times-up",
+  "title": "Times Up",
+  "description": "Active expiry expiration",
+  "version": "0.8.32",
+  "author": "tposney",
+  "scripts": [],
+  "esmodules": ["times-up.js"],
+  "styles": ["times-up.css"],
+  "packs": [],
+  "dependencies": [
+    { "name": "lib-wrapper", "type": "module" },
+    { "name": "socketlib", "type": "module" }
+  ],
+  "languages": [
+    {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }
+  ],
+  "minimumCoreVersion": "0.8.2",
+  "compatibleCoreVersion": "9",
+  "license": "",
+  "readme": "https://gitlab.com/tposney/times-up/raw/master/Readme.md",
+  "bugs": "https://gitlab.com/tposney/times-up/-/issues",
+  "allowBugReporter": true,
+  "changelog": "https://gitlab.com/tposney/times-up/master/Changelog.md",
+  "socket": true,
+  "url": "https://gitlab.com/tposney/times-up",
+  "manifest": "https://gitlab.com/tposney/times-up/raw/master/package/module.json",
+  "download": "https://gitlab.com/tposney/times-up/raw/master/package/times-up-v0.8.32.zip"
+}

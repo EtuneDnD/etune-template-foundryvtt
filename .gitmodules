@@ -1,0 +1,3 @@
+[submodule "etune-foundryvtt-macros"]
+	path = etune-foundryvtt-macros
+	url = git@github.com:EtuneDnD/etune-foundryvtt-macros.git
