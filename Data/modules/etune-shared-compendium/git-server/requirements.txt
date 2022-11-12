@@ -1,3 +1,0 @@
-uvicorn[standard]>=0.17.6,<=0.18.0
-fastapi>=0.75.2,<=0.76.0
-pyinstaller>=5.0,<=5.1
