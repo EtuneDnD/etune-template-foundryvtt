@@ -1,6 +1,0 @@
-[submodule "Data/modules/etune-shared-compendium"]
-	path = Data/modules/etune-shared-compendium
-	url = git@github.com:EtuneDnD/etune-shared-compendium.git
-[submodule "Data/etune-foundryvtt-macros"]
-	path = Data/etune-foundryvtt-macros
-	url = git@github.com:EtuneDnD/etune-foundryvtt-macros.git
