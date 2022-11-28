@@ -1,7 +1,0 @@
-{"name":"Trampas","type":"Actor","parent":"oqUE02QHfAmJk9NK","sorting":"a","sort":0,"color":null,"flags":{},"_id":"2CBqKYlQ3D3pr4WQ"}
-{"name":"_simple_calendar_notes_directory","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"flags":{"foundryvtt-simple-calendar":{"root":true}},"_id":"PPexNUra6SsFA6DN"}
-{"name":"Locked Doors and Chests","type":"Actor","parent":"o4lzSSXt84CXTnML","sorting":"a","sort":0,"color":null,"flags":{},"_id":"XgZuD5d1FEnDi2IU"}
-{"name":"Item Pile","type":"Actor","parent":"o4lzSSXt84CXTnML","sorting":"a","sort":0,"color":null,"flags":{},"_id":"nTjwzIBhzBha7dcK"}
-{"name":"Utils","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#70a53b","flags":{},"_id":"o4lzSSXt84CXTnML"}
-{"name":"Prefabs","type":"Actor","parent":"o4lzSSXt84CXTnML","sorting":"a","sort":0,"color":null,"flags":{},"_id":"oqUE02QHfAmJk9NK"}
-{"_id":"yLaEFOwBiBK3ZLQB","name":"Utils","type":"Item","parent":null,"sorting":"a","sort":100000,"color":"#70a53b","flags":{}}
